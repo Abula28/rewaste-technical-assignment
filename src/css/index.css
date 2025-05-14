@@ -1,0 +1,13 @@
+@import "./style.css";
+@import "./tailwind.css";
+
+html {
+  font-family: "Inter", system-ui, sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: #fff;
+}

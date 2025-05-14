@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "./style.css";
+
+@theme {
+    --color-primary-blue: var(--primary-blue);
+    --color-secondary-blue: var(--secondary-blue);
+    --color-dark-bg: var(--dark-bg);
+    --color-border-color: var(--border-color);
+}
