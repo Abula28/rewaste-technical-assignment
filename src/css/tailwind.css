@@ -2,8 +2,23 @@
 @import "./style.css";
 
 @theme {
-    --color-primary-blue: var(--primary-blue);
-    --color-secondary-blue: var(--secondary-blue);
-    --color-dark-bg: var(--dark-bg);
-    --color-border-color: var(--border-color);
+  --color-primary-blue: var(--primary-blue);
+  --color-secondary-blue: var(--secondary-blue);
+  --color-dark-bg: var(--dark-bg);
+  --color-border-color: var(--border-color);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.2s ease-in-out;
 }
