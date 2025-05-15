@@ -1,13 +1,12 @@
 @import "./style.css";
 @import "./tailwind.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-html {
-  font-family: "Inter", system-ui, sans-serif;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-}
 
 body {
   background-color: var(--dark-bg);
   color: #fff;
+  font-family: "Inter", system-ui, sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
 }

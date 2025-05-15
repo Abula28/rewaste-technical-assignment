@@ -1,11 +1,11 @@
 :root {
-    --primary-blue: #0037C1;
-    --secondary-blue: #2563eb;
-    --dark-bg: #1C1C1C;
-    --border-color: #2A2A2A;
+  --primary-blue: #0037c1;
+  --secondary-blue: #2563eb;
+  --dark-bg: #1c1c1c;
+  --border-color: #2a2a2a;
 }
 
 body {
-    background-color: var(--dark-bg);
-    color: #fff;
+  background-color: #121212;
+  color: #fff;
 }
