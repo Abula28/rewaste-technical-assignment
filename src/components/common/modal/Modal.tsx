@@ -53,7 +53,7 @@ const Modal: React.FC<ModalI> = ({
 
   return createPortal(
     <div
-      className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 animate-fadeIn"
+      className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 animate-fadeIn px-4"
       role="dialog"
       aria-modal="true"
     >
