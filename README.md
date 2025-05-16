@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# Rewaste Skip Select Page Refactoring | Technical Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project contains the refactored version of the Rewaste skip select page, focusing on improving user experience and interface clarity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Recent Changes
 
-## Expanding the ESLint configuration
+### UI/UX Improvements
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Replaced bottom drawer with modal for skip selection
+  - Enhanced user experience with a more accessible and visible interface
+  - Improved interaction flow for skip selection process
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Card Component Refactoring
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Streamlined card components by removing unnecessary elements
+- Added essential user information to cards
+- Improved information hierarchy and readability
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Enhanced Accessibility Features
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Implemented filtering functionality for better content organization
+- Added sorting capabilities to improve content discovery
+- Improved overall accessibility and user navigation
+
+### Design System
+
+The project uses a custom design system with the following color scheme:
+
+- Primary Blue: #0037c1
+- Secondary Blue: #2563eb
+- Dark Background: #1c1c1c
+- Border Color: #2a2a2a
+
+### Animations
+
+- Implemented smooth slide-in animations for better user interaction
+- Animation duration: 0.2s with ease-in-out timing
+
+## Technical Stack
+
+- CSS with Tailwind integration
+- Custom animations and transitions
+- Responsive design implementation
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies
+3. Run the development server
+
+## Contributing
+
+Feel free to submit issues and enhancement requests.
