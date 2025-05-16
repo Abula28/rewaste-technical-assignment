@@ -38,17 +38,63 @@ The project uses a custom design system with the following color scheme:
 - Implemented smooth slide-in animations for better user interaction
 - Animation duration: 0.2s with ease-in-out timing
 
-## Technical Stack
+## Technology Stack
 
-- CSS with Tailwind integration
-- Custom animations and transitions
-- Responsive design implementation
+### Core Technologies
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Key Packages
+
+- React Icons
+- ESLint & Prettier for code formatting
+
+### Development Tools
+
+- Node.js
+- npm
+- Git
 
 ## Getting Started
 
 1. Clone the repository
+
+```bash
+git clone [repository-url]
+cd technical-assignment
+```
+
 2. Install dependencies
-3. Run the development server
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Project Structure
+
+```
+src/
+├── api/              # API integration and requests
+├── components/       # Reusable UI components
+│   ├── common/      # Shared components (Card, Modal, Select, etc.)
+│   └── ...
+├── css/             # Global styles and Tailwind configuration
+├── hooks/           # Custom React hooks
+├── pages/           # Page components
+│   └── home/        # Homepage and related components
+└── types/           # TypeScript type definitions
+```
 
 ## Contributing
 
