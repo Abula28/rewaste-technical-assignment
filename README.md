@@ -64,7 +64,7 @@ The project uses a custom design system with the following color scheme:
 
 ```bash
 git clone https://github.com/Abula28/rewaste-technical-assignment
-cd technical-assignment
+cd rewaste-technical-assignment
 ```
 
 2. Install dependencies
