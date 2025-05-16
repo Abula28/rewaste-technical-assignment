@@ -9,8 +9,8 @@ This project contains the refactored version of the Rewaste skip select page, fo
 ### UI/UX Improvements
 
 - Replaced bottom drawer with modal for skip selection
-  - Enhanced user experience with a more accessible and visible interface
-  - Improved interaction flow for skip selection process
+- Enhanced user experience with a more accessible and visible interface
+- Improved interaction flow for skip selection process
 
 ### Card Component Refactoring
 
